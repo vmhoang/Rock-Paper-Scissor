@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+}
+
+.main_container{
+    color: white;
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.box{
+    background-color: antiquewhite;
+    border: 2px solid pink;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300;
+}
+img{
+    width: 200px;
+    height: 200px;
+}

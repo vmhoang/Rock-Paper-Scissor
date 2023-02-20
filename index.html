@@ -6,25 +6,38 @@
         <title>Rock Paper Scissor</title>
     </head>
     <body>
-        <script src="main.js">
-            console.log("Hello,World")
-        </script>
+        
         <div class="header">
-            <img src="./image/human.png" alt="">
-            <img src="./image/robot.png " alt="">
+            <img src="./image/human.png" id ='human'alt="">
+            <img src="./image/robot.png " id ='robot'alt="">
+        </div>
+        <div class = 'Result'>
+            <h1 id = 'gameresult'>Result</h1>
         </div>
         <div class="main_container">
             <div class="box">
-                <img src="./image/rock.jpg" alt="Rock" id = "rockimg" onclick="human_choice()">
-                <img src="./image/paper.jpg" alt="Paper" id ="paperimg" onclick ="human_choice()">
-                <img src="./image/scissors.jpg" alt="Scissor" id = "scissorimg" onclick= "human_choice()">
+                <div>
+                    <img src="./image/rock.jpg" alt="Rock" id = "rockimg" >
+                    <button class ="gamechoice">ROCK</button>
+                </div>
+                <DIV>
+                    <img src="./image/paper.jpg" alt="Paper" id ="paperimg" >
+                    <button class  = 'gamechoice'>PAPER</button>
+                </DIV>
+
+                <div>
+                    <img src="./image/scissors.jpg" alt="Scissor" id = "scissorimg" >
+                    <button class = 'gamechoice'>SCISSOR</button>
+                </div>
+    
             </div>
             <div class="box">
-                <img src="./image/rock.jpg" alt="Rock">
+                <img src="./image/rock.jpg"  alt="Rock">
                 <img src="./image/paper.jpg" alt="Paper">
                 <img src="./image/scissors.jpg" alt="Scissor">
             </div>
         </div>
         
     </body>
+    <script src="main.js"></script>
 </html>
